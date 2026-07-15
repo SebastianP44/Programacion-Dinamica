@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //runFibonaci();
-        //runFibonaciRecursivePD();
+        runFibonaci();
+        runFibonaciRecursivePD();
         runFibonaciIter();
         runFibonaciIter2();
     }
@@ -19,6 +19,8 @@ public class App {
         System.out.println("Finbonaci de " + num + " es " + i + "  en: " + milliseconds + " milliseconds");
 
     }
+
+    private
     private static long getFibonacciRecursivePD(int num, long[] cache) {
         return 0;
         
@@ -120,4 +122,5 @@ public class App {
 
 
 }
+    
 }
